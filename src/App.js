@@ -1,11 +1,11 @@
 import './App.css';
-import { Calculadora } from './components/Calculadora';
+import Final from './components/Final';
 
 function App() {
   return (
-    <>
-      <Calculadora/>
-    </>
+    <div className="appContainer">
+      <Final/>
+    </div>
   );
 }
 
